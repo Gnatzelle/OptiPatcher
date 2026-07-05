@@ -1399,6 +1399,32 @@ static void CheckForPatch()
         }
     }
 
+    // Jurassic World Evolution 2
+    else if (exeName == "jwe2.exe")
+    {
+        std::string_view pattern("E8 ? ? ? ? 81 BC 24 60 04 00 00 DE 10 00 00");
+        auto patchAddress = (void*) scanner::GetAddressFromWholeModule(exeModule, pattern, 16);
+        if (patchAddress != nullptr)
+        {
+            std::vector<BYTE> patch = { 0x90, 0x90 };
+            patcher::PatchAddress(patchAddress, &patch);
+            _patchResult = true;
+        }
+    }
+
+    // Jurassic World Evolution 3
+    else if (exeName == "jwe3.exe")
+    {
+        std::string_view pattern("81 BD C0 03 00 00 02 10 00 00");
+        auto patchAddress = (void*) scanner::GetAddressFromWholeModule(exeModule, pattern, 10);
+        if (patchAddress != nullptr)
+        {
+            std::vector<BYTE> patch = { 0x90, 0x90, 0x90, 0x90, 0x90, 0x90 };
+            patcher::PatchAddress(patchAddress, &patch);
+            _patchResult = true;
+        }
+    }
+
     // Red Dead Redemption 2
     // Thanks to 0x-FADED
     // https://github.com/0x-FADED/RDR2-NVNGX-Loader

@@ -88,6 +88,8 @@ TEMPLATE FOR NEW ENTRIES
 | INDIKA | ✔️ | N/A |  |
 | INDUSTRIA 2 | ✔️ | ✅ |  |
 | InZOI | ✔️ | ✅ | _Built-in FSR FG is broken when using patcher, stick to DLSSG_ |
+| Jurassic World Evolution 2 | ✔️ | ✅ |  |
+| Jurassic World Evolution 3 | ✔️ | ✅ |  |
 | Jusant | ✔️ | ✅ |  |
 | Keeper | ✔️ | ✅ | _WinGDK exe supported also_ |
 | Kena: Bridge of Spirits | ✔️ | N/A |  |
