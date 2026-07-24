@@ -50,6 +50,7 @@ TEMPLATE FOR NEW ENTRIES
 | Destroy All Humans! 2 - Reprobed | ✔️ | ⛔ | _SL1_ |
 | Directive 8020 | ✔️ | ✅ |  |
 | DOOM Eternal (+ Sandbox) | ✔️ | N/A | _Sandbox exe also supported, RT working_ |
+| DragonSword : Awakening | ✔️ | ✅ |  |
 | Echo Point Nova | ✔️ | N/A |  |
 | Echoes of the End: Enhanced Edition | ✔️ | ✅ |  |
 | Enotria: The Last Song | ✔️ | ✅ |  |
@@ -76,6 +77,7 @@ TEMPLATE FOR NEW ENTRIES
 | Grand Theft Auto: Vice City – The Definitive Edition | ✔️ | N/A |  |
 | Grounded 2 | ✔️ | N/A | _SL patterns patched for future usage_ |
 | Half Sword | ✔️ | ✅ |  |
+| Halo: Campaign Evolved | ✔️ | ✅ |  |
 | Hell is Us | ✔️ | ✅ | _Demo should also be supported_ |
 | Hell Pie | ✔️ | N/A |  |
 | Hi-Fi RUSH | ✔️ | N/A | _Latest update replaced Denuvo with VMProtect which blocks Patcher_ |
